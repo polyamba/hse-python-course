@@ -2,4 +2,4 @@
 
 **ФИО студнта:** Жилина Полина Павловна
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=9640586697886740" height="307" width="345" frameborder="0" scrolling="no" ></iframe>
+![Pinterest picture]([https://i.pinimg.com/originals/xx/xx/xx/xxxx.jpg](https://i.pinimg.com/1200x/af/0e/44/af0e44dc61e0e41d6628a47e87634d72.jpg))
