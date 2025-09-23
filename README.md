@@ -1,2 +1,3 @@
-# hse-python-course
-Repository for Python course 
+| ФИО студента | Группа |
+| ----------- | ----------- |
+| Жилина Полина Павловна    | Advanced    |
