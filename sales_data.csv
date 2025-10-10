@@ -1,0 +1,9 @@
+date,product,category,price,quantity,region,customer_age
+2024-01-01,Product_A,Electronics,299.99,5,North,25
+2024-01-01,Product_B,Books,19.99,10,South,32
+2024-01-02,Product_C,Clothing,49.99,,East,28
+2024-01-02,Product_A,Electronics,299.99,3,West,45
+2024-01-03,Product_D,Home,89.99,7,North,36
+2024-01-03,Product_B,Books,19.99,12,South,29
+2024-01-04,Product_E,Electronics,199.99,2,East,41
+2024-01-04,Product_C,Clothing,49.99,8,West,33
