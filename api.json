@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Bohemian Rhapsody",
+        "author": "Freddie Mercury",
+        "performer": "Queen",
+        "album": "A Night at the Opera",
+        "created_date": "1975-10-31",
+        "songwriter": "Freddie Mercury",
+        "likes": 1500000,
+        "similar_ids": [2, 3, 7]
+    },
+    {
+        "id": 2,
+        "title": "Hotel California",
+        "author": "Don Felder",
+        "performer": "Eagles",
+        "album": "Hotel California",
+        "created_date": "1976-12-08",
+        "songwriter": "Don Felder, Glenn Frey, Don Henley",
+        "likes": 1200000,
+        "similar_ids": [1, 4, 8]
+    },
+    {
+        "id": 3,
+        "title": "Stairway to Heaven",
+        "author": "Jimmy Page",
+        "performer": "Led Zeppelin",
+        "album": "Led Zeppelin IV",
+        "created_date": "1971-11-08",
+        "songwriter": "Jimmy Page, Robert Plant",
+        "likes": 1300000,
+        "similar_ids": [1, 5, 9]
+    },
+    {
+        "id": 4,
+        "title": "Sweet Child O' Mine",
+        "author": "Slash",
+        "performer": "Guns N' Roses",
+        "album": "Appetite for Destruction",
+        "created_date": "1987-07-21",
+        "songwriter": "Slash, Axl Rose, Izzy Stradlin",
+        "likes": 1100000,
+        "similar_ids": [2, 6, 10]
+    },
+    {
+        "id": 5,
+        "title": "Smells Like Teen Spirit",
+        "author": "Kurt Cobain",
+        "performer": "Nirvana",
+        "album": "Nevermind",
+        "created_date": "1991-09-10",
+        "songwriter": "Kurt Cobain",
+        "likes": 1400000,
+        "similar_ids": [3, 7, 8]
+    },
+    {
+        "id": 6,
+        "title": "Billie Jean",
+        "author": "Michael Jackson",
+        "performer": "Michael Jackson",
+        "album": "Thriller",
+        "created_date": "1983-01-02",
+        "songwriter": "Michael Jackson",
+        "likes": 1600000,
+        "similar_ids": [4, 9, 10]
+    },
+    {
+        "id": 7,
+        "title": "Like a Rolling Stone",
+        "author": "Bob Dylan",
+        "performer": "Bob Dylan",
+        "album": "Highway 61 Revisited",
+        "created_date": "1965-07-20",
+        "songwriter": "Bob Dylan",
+        "likes": 900000,
+        "similar_ids": [1, 5, 8]
+    },
+    {
+        "id": 8,
+        "title": "Imagine",
+        "author": "John Lennon",
+        "performer": "John Lennon",
+        "album": "Imagine",
+        "created_date": "1971-10-11",
+        "songwriter": "John Lennon",
+        "likes": 1000000,
+        "similar_ids": [2, 5, 7]
+    },
+    {
+        "id": 9,
+        "title": "What's Going On",
+        "author": "Marvin Gaye",
+        "performer": "Marvin Gaye",
+        "album": "What's Going On",
+        "created_date": "1971-01-20",
+        "songwriter": "Marvin Gaye, Al Cleveland, Renaldo Benson",
+        "likes": 800000,
+        "similar_ids": [3, 6, 10]
+    },
+    {
+        "id": 10,
+        "title": "Good Vibrations",
+        "author": "Brian Wilson",
+        "performer": "The Beach Boys",
+        "album": "Smiley Smile",
+        "created_date": "1966-10-10",
+        "songwriter": "Brian Wilson, Mike Love",
+        "likes": 950000,
+        "similar_ids": [4, 6, 9]
+    }
+]
