@@ -1,4 +1,4 @@
-# Python course for beginners/advanced learners
+# Python course for advanced learners
 
 **ФИО студнта:** Жилина Полина Павловна
 
