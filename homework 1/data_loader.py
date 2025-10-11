@@ -24,7 +24,7 @@ class DataLoader():
     
     def load_data(self, file_path):
         """
-        Загружает CSV-данные из файла
+        Загружает CSV-данные из файла.
         """
         self._validate_file_path(file_path)
         df = pd.read_csv(file_path)
