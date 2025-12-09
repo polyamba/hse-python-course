@@ -1,6 +1,3 @@
-# Задача: Создать скрипт, который принимает два числа и операцию
-# Использование: python calc.py 10 5 --operation add
-# Должен поддерживать: add, subtract, multiply, divide
 import argparse
 
 parser = argparse.ArgumentParser()
