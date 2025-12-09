@@ -1,9 +1,3 @@
-# Задача: Создать скрипт для подсчета слов/символов в файле
-# Использование: 
-#   python wordcount.py text.txt --words
-#   python wordcount.py text.txt --chars --lines
-# Опции: --words, --chars, --lines (можно комбинировать)
-
 import argparse
 
 parser = argparse.ArgumentParser()
