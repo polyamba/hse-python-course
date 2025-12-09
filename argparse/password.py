@@ -1,8 +1,3 @@
-# Задача: Создать генератор паролей с настройками
-# Использование:
-#   python password.py --length 12
-#   python password.py -l 16 --uppercase --digits --symbols
-# Параметры: длина, uppercase, digits, symbols
 import argparse
 import string
 import random
