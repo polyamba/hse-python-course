@@ -4,16 +4,14 @@ import os
 import time
 from typing import List, Dict, Optional
 
-# Настройка логирования
-# Базовая конфигурация со всеми опциями
 logging.basicConfig(
-    level=logging.INFO,           # Минимальный уровень для записи
-    format='%(asctime)s - %(levelname)s - %(message)s',  # Формат сообщения
-    datefmt='%H:%M:%S',           # Формат времени
-    filename='app.log',           # Опционально: запись в файл
-    filemode='a',                 # Опционально: 'a' для дописывания, 'w' для перезаписи
-    encoding='utf-8',             # Опционально: кодировка файла
-    force=True                    # Опционально: переопределить существующую конфигурацию
+    level=logging.INFO,          
+    format='%(asctime)s - %(levelname)s - %(message)s', 
+    datefmt='%H:%M:%S',          
+    filename='app.log',
+    filemode='a',                
+    encoding='utf-8',           
+    force=True                   
     )
 logger = logging.getLogger(__name__)
 
@@ -38,19 +36,13 @@ class CryptoPriceChecker:
                 'include_24hr_change': 'true'    # Включить изменение цены за 24 часа
             }
             
-            ### ваш код здесь ###
             # Задание 2: сделать get-запрос
-            # передать в запрос эндпоинт (base url), 
-            # параметры запроса (предыдущая строка этой функции)
-            # и таймаут = 10
             response = requests.get(
                 self.base_url,
                 params,
                 timeout=10
             )            
-            
-            # Выполнить проверку кода запроса
-            
+                        
             if response.status_code == 200:
                 data = response.json() # преобразует JSON ответ от API в Python словарь
                 crypto_data = data.get(crypto_id)
@@ -63,20 +55,14 @@ class CryptoPriceChecker:
                         'currency': 'USD'
                     }
                 else:
-                    # logger.warning выводит предупреждение о ненайденной крипте
                     logger.warning("Cryptocurrency unknown_coin not found")
-                    # Пример вывода: "Cryptocurrency unknown_coin not found"
                     return None
             else:
-                # logger.error выводит ошибку API
                 logger.error( "CoinGecko API error: 429")
-                # Пример вывода: "CoinGecko API error: 429"
                 return None
                 
         except requests.exceptions.RequestException as e:
-            # logger.error выводит сетевую ошибку
             logger.error("Network error during price request: Connection refused")
-            # Пример вывода: "Network error during price request: Connection refused"
             return None
     
     def get_multiple_prices(self, crypto_ids: List[str]) -> Dict[str, Optional[Dict]]:
@@ -84,19 +70,14 @@ class CryptoPriceChecker:
         results = {}
         for crypto_id in crypto_ids:
             results[crypto_id] = self.get_price(crypto_id)
-            # Задержка между запросами чтобы избежать лимитов API
             time.sleep(5)
         return results
 
 
-# Демонстрация работы всех клиентов
 if __name__ == "__main__":    
-    # logger.info выводит заголовок теста
     logger.info("Testing Cryptocurrency Prices...")
-    # Пример вывода: "Testing Cryptocurrency Prices..."
     crypto = CryptoPriceChecker()
     
-    # Тестируем несколько криптовалют
     cryptocurrencies = ['bitcoin', 'ethereum', 'cardano', 'solana', 'dogecoin']
     prices = crypto.get_multiple_prices(cryptocurrencies)
     
@@ -104,10 +85,6 @@ if __name__ == "__main__":
         if price_data:
             change = price_data['price_change_24h'] or 0
             change_symbol = "+" if change > 0 else ""
-            # logger.info выводит цену крипты с изменением
             logger.info(f"bitcoin: {price_data['current_price']} ({change_symbol}{round(change*100, 2)}%)")
-            # Пример вывода: "bitcoin: $45000.50 (+2.35%)"
     
-    # logger.info выводит заголовок теста
-    ### ваш код здесь ###
     logger.info("Stop")
