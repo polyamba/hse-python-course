@@ -1,0 +1,128 @@
+14:14:51 - INFO - Testing URL Shortener...
+14:14:52 - INFO - URL shortened: https://www.python.org/downloads/ -> https://cleanuri.com/dwnQDV
+14:14:52 - INFO - Short URL: https://cleanuri.com/dwnQDV
+15:10:32 - INFO - Testing Cryptocurrency Prices...
+15:11:51 - INFO - Testing Cryptocurrency Prices...
+15:11:52 - ERROR - CoinGecko API error: 429
+15:11:53 - ERROR - CoinGecko API error: 429
+15:11:54 - ERROR - CoinGecko API error: 429
+15:11:54 - ERROR - CoinGecko API error: 429
+15:11:55 - ERROR - CoinGecko API error: 429
+15:11:56 - INFO - Testing...
+15:12:46 - INFO - Testing Cryptocurrency Prices...
+15:12:46 - ERROR - CoinGecko API error: 429
+15:12:48 - ERROR - CoinGecko API error: 429
+15:12:49 - ERROR - CoinGecko API error: 429
+15:12:51 - ERROR - CoinGecko API error: 429
+15:12:52 - ERROR - CoinGecko API error: 429
+15:12:53 - INFO - Testing...
+15:14:33 - INFO - Testing Cryptocurrency Prices...
+15:14:33 - ERROR - CoinGecko API error: 429
+15:14:39 - ERROR - CoinGecko API error: 429
+15:14:44 - ERROR - CoinGecko API error: 429
+15:14:50 - ERROR - CoinGecko API error: 429
+15:14:55 - ERROR - CoinGecko API error: 429
+15:15:00 - INFO - Testing...
+15:16:30 - INFO - Testing Cryptocurrency Prices...
+15:16:57 - INFO - bitcoin: {'name': 'Bitcoin', 'current_price': 83660, 'price_change_24h': 1.9102251290428078, 'currency': 'USD'} (+1.9102251290428078)
+15:16:57 - INFO - bitcoin: {'name': 'Ethereum', 'current_price': 2715.88, 'price_change_24h': 1.387677384919551, 'currency': 'USD'} (+1.387677384919551)
+15:16:57 - INFO - bitcoin: {'name': 'Cardano', 'current_price': 0.398376, 'price_change_24h': 0.5473047321815148, 'currency': 'USD'} (+0.5473047321815148)
+15:16:57 - INFO - bitcoin: {'name': 'Solana', 'current_price': 125.92, 'price_change_24h': 1.654161065456211, 'currency': 'USD'} (+1.654161065456211)
+15:16:57 - INFO - bitcoin: {'name': 'Dogecoin', 'current_price': 0.137163, 'price_change_24h': 0.46899460671220444, 'currency': 'USD'} (+0.46899460671220444)
+15:16:57 - INFO - Testing...
+15:18:11 - INFO - Testing Cryptocurrency Prices...
+15:18:38 - INFO - bitcoin: 83696 (+1.9539432619211552)
+15:18:38 - INFO - bitcoin: 2717.36 (+1.442722185015035)
+15:18:38 - INFO - bitcoin: 0.39794 (+0.8941115827684886)
+15:18:38 - INFO - bitcoin: 125.92 (+1.654134500017749)
+15:18:38 - INFO - bitcoin: 0.137108 (+0.8979723696650365)
+15:18:38 - INFO - Testing...
+15:19:53 - INFO - Testing Cryptocurrency Prices...
+15:20:20 - INFO - bitcoin: 83709 (+244.83%)
+15:20:21 - INFO - bitcoin: 2717.53 (+206.26%)
+15:20:21 - INFO - bitcoin: 0.397925 (+89.04%)
+15:20:21 - INFO - bitcoin: 125.81 (+203.29%)
+15:20:21 - INFO - bitcoin: 0.137089 (+88.4%)
+15:20:21 - INFO - Testing...
+15:20:58 - INFO - Testing Cryptocurrency Prices...
+15:21:25 - INFO - bitcoin: 83735 (+248.02%)
+15:21:25 - INFO - bitcoin: 2718.22 (+208.82%)
+15:21:25 - INFO - bitcoin: 0.397975 (+90.32%)
+15:21:25 - INFO - bitcoin: 125.81 (+203.71%)
+15:21:25 - INFO - bitcoin: 0.137104 (+89.46%)
+15:21:25 - INFO - Stop
+15:41:41 - INFO - Testing News API...
+15:41:41 - WARNING - NewsAPI key not configured
+15:42:45 - INFO - Testing News API...
+15:42:45 - WARNING - NewsAPI key not configured
+15:46:17 - INFO - Testing News API...
+15:46:17 - WARNING - NewsAPI key not configured
+15:50:20 - INFO - Testing News API...
+15:50:20 - WARNING - NewsAPI key not configured
+15:55:10 - INFO - Testing News API...
+15:55:11 - INFO - Found 3 news articles for topic python programming
+15:55:11 - INFO - News: The Real Python Podcast – Episode #275: Building a FastAPI Application & Exploring Python Concurrency
+15:55:14 - INFO - News: Django News - Django 6.0 release candidate 1 released - Nov 21st 2025
+15:55:17 - INFO - News: Web Review, Week 2025-47
+16:13:29 - INFO - Testing IP Geolocation...
+16:13:30 - INFO - IP 8.8.8.8: United States, California, Mountain View (Google LLC)
+16:13:30 - INFO - IP 1.1.1.1: Australia, New South Wales, Sydney (Google LLC)
+16:13:31 - INFO - IP 23.94.48.109: United States, Georgia, Marietta (Google LLC)
+16:13:32 - INFO - Detected own IP: {own_ip}}
+16:13:32 - INFO - Your location: Spb, Russia
+16:15:06 - INFO - Testing IP Geolocation...
+16:15:07 - INFO - IP 8.8.8.8: United States, California, Mountain View (Google LLC)
+16:15:07 - INFO - IP 1.1.1.1: Australia, New South Wales, Sydney (Google LLC)
+16:15:08 - INFO - IP 23.94.48.109: United States, Georgia, Marietta (Google LLC)
+16:15:09 - INFO - Detected own IP: 178.250.191.180
+16:15:09 - ERROR - Geolocation error for IP {ip_address}}
+16:17:29 - INFO - Testing IP Geolocation...
+16:17:30 - INFO - IP 8.8.8.8: United States, California, Mountain View (Google LLC)
+16:17:31 - ERROR - Geolocation error for IP {ip_address}}
+16:17:31 - INFO - IP 23.94.48.109: United States, Georgia, Marietta (Google LLC)
+16:17:32 - INFO - Detected own IP: 178.250.191.180
+16:17:33 - INFO - Your location: Frankfurt am Main, Germany
+16:18:36 - INFO - Testing IP Geolocation...
+16:18:36 - ERROR - Geolocation error for IP 8.8.8.8 : HTTP 429
+16:18:37 - INFO - IP 1.1.1.1: Australia, New South Wales, Sydney (Google LLC)
+16:18:38 - INFO - IP 23.94.48.109: United States, Georgia, Marietta (Google LLC)
+16:18:38 - INFO - Detected own IP: 178.250.191.180
+16:18:39 - INFO - Your location: Frankfurt am Main, Germany
+00:09:55 - INFO - Testing YouTube Search...
+00:10:22 - INFO - Testing YouTube Search...
+00:10:23 - INFO - Found 3 videos for query 'python tutorials'
+00:10:23 - INFO - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]
+00:10:23 - INFO - Learn Python - Full Course for Beginners [Tutorial]
+00:10:23 - INFO - 👩‍💻 Python for Beginners Tutorial
+00:10:23 - INFO - Python Full Course for Beginners [2025]
+00:10:23 - INFO - Python Tutorial for Beginners (with mini-projects)
+00:10:23 - INFO - Python Tutorial for Absolute Beginners #1 - What Are Variables?
+00:10:23 - INFO - Python for AI - Full Beginner Course
+00:10:23 - INFO - Learn Python in Less than 10 Minutes for Beginners (Fast &amp; Easy)
+00:10:23 - INFO - Stop learning Python👀
+00:10:23 - INFO - Learn Python for FREE in 2025
+00:10:23 - INFO - Python for Beginners - Learn Coding with Python in 1 Hour
+00:10:23 - INFO - Python Full Course for Beginners
+00:10:23 - INFO - Python Basics: The Best Way to Learn Python Programming (2024)
+00:10:23 - INFO - Python Full Course For Beginners (Learn How To Code in 2025)
+00:10:23 - INFO - Fastest way to learn Python #coding #python #programming
+00:10:23 - INFO - Learn Python in Only 30 Minutes (Beginner Tutorial)
+00:10:23 - INFO - Amazing Flower Design using Python turtle 🐢 #python #coding #funny #viral #trending #design
+00:10:23 - INFO - How to create graphics using Python turtle 🐍🐢 #coding
+00:10:23 - INFO - Python Tutorial Deutsch | Komplettkurs für Anfänger
+00:10:23 - INFO - Impress your crush using Python Code ❤️
+00:10:23 - INFO - you need to learn Python RIGHT NOW!! // EP 1
+00:10:23 - INFO - Python Basics: Your FIRST Program in Under a Minute! 🚀
+00:10:23 - INFO - Python Classes in 1 Minute!
+00:10:23 - INFO - Python in Excel‼️ #excel #python
+00:10:23 - INFO - Python Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours
+00:13:05 - INFO - Testing YouTube Search...
+00:13:06 - INFO - Found 3 videos for query 'python tutorials'
+00:13:06 - INFO - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]
+00:13:06 - INFO - Learn Python - Full Course for Beginners [Tutorial]
+00:13:06 - INFO - 👩‍💻 Python for Beginners Tutorial
+00:13:38 - INFO - Testing YouTube Search...
+00:13:39 - INFO - Found 3 videos for query 'python tutorials'
+00:13:39 - INFO - Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]
+00:13:39 - INFO - Learn Python - Full Course for Beginners [Tutorial]
+00:13:39 - INFO - 👩‍💻 Python for Beginners Tutorial
