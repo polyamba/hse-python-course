@@ -6,13 +6,13 @@ from typing import List, Dict, Optional
 from dotenv import dotenv_values
 
 logging.basicConfig(
-    level=logging.INFO,           # Минимальный уровень для записи
-    format='%(asctime)s - %(levelname)s - %(message)s',  # Формат сообщения
-    datefmt='%H:%M:%S',           # Формат времени
-    filename='app.log',           # Опционально: запись в файл
-    filemode='a',                 # Опционально: 'a' для дописывания, 'w' для перезаписи
-    encoding='utf-8',             # Опционально: кодировка файла
-    force=True                    # Опционально: переопределить существующую конфигурацию
+    level=logging.INFO,        
+    format='%(asctime)s - %(levelname)s - %(message)s', 
+    datefmt='%H:%M:%S',         
+    filename='app.log',         
+    filemode='a',                 
+    encoding='utf-8',             
+    force=True                   
     )
 logger = logging.getLogger(__name__)
 
@@ -32,7 +32,6 @@ class YouTubeSearch:
     def search_videos(self, query: str, max_results: int = 5) -> List[Dict]:
         """Ищет видео на YouTube по запросу"""
         if not self.api_key:
-            # logger.error выводит ошибку отсутствия API ключа
             logger.error("YOUTUBE_API_KEY not found in .env file")
             logger.info("Get API key from: https://console.cloud.google.com/apis/library/youtube.googleapis.com")
             return []
@@ -82,7 +81,6 @@ class YouTubeSearch:
 
 
 
-# Демонстрация работы всех клиентов
 if __name__ == "__main__":    
     logger.info("Testing YouTube Search...")
     youtube = YouTubeSearch()
@@ -92,4 +90,3 @@ if __name__ == "__main__":
             logger.info(f"{video['title']}")
     else:
         logger.warning("YouTube API key not configured")
-        
